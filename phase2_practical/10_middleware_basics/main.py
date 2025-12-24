@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model
 from langchain.agents import create_agent
 from langchain_core.tools import tool
-from langchain.agents.middleware import AgentMiddleware
+from langchain.agents.middleware import AgentMiddleware,dynamic_prompt
 from langgraph.checkpoint.memory import InMemorySaver
 
 # 加载环境变量
