@@ -78,7 +78,7 @@ if not GROQ_API_KEY or GROQ_API_KEY == "your_groq_api_key_here":
     )
 
 # 初始化模型
-model = init_chat_model("groq:llama-3.3-70b-versatile", api_key=GROQ_API_KEY)
+model = init_chat_model("groq:moonshotai/kimi-k2-instruct-0905", api_key=GROQ_API_KEY)
 
 # ==================== 模拟数据库 ====================
 
